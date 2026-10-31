@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
-import NavBar from "./components/NavBar";
+import BarraNavegacion from "./components/BarraNavegacion";
 
 import Inicio from "./pages/Inicio";
 import HeroesList from "./pages/HeroesList";
@@ -20,7 +20,7 @@ function App() {
         <div className="min-h-screen bg-base-200">
 
             {/* Navegación principal */}
-            <NavBar />
+            <BarraNavegacion />
 
             {/* Contenido de las páginas */}
             <main className="container mx-auto px-4 py-6">
