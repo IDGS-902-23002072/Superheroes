@@ -1,0 +1,16 @@
+/* Variables globales */
+:root {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color-scheme: dark;
+
+    --color-primary: #e11d48;
+    --color-background: #0f172a;
+    --color-surface: #1e293b;
+    --color-text: #f8fafc;
+}
+
+
+/* Documento */
+html {
+    scroll-behavior: smooth;
+}
